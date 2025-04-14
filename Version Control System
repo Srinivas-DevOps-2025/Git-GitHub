@@ -4,9 +4,42 @@ A Version Control System (VCS) is a software tool, that helps developers/users t
 It facilitates collabaration, track the versions, and records modications.
 
 **Importance**
+
 1. Collabaration: Multiple developers can work on same project simultaneously.
-2. History Tracking: VCS maintains a detailed history of code changes, including who made each change and when. This historical record aids in understanding the evolution of the project and is invaluable for debugging and auditing purposes
-3. Branching and Merging: VCS allows developers to create branches, enabling them to work on new features or fixes independently. Once completed, these branches can be merged back into the main codebase, streamlining development workflows.
-4. 
+
+2. History Tracking: VCS maintains a detailed history of code changes, including who made each change and when. 
+This historical record aids in understanding the evolution of the project and is invaluable for debugging and auditing purposes
+
+3. Branching and Merging: VCS allows developers to create branches, enabling them to work on new features or fixes independently. 
+Once completed, these branches can be merged back into the main codebase, streamlining development workflows.
+
+
+**Types of Version Control Systems (VCS)**
+
+1. Centralized Version Control Systems (CVCS):
+
+In a CVCS, all project files and their revision histories are stored in a central repository. 
+Developers commit their changes directly to this central server, ensuring that everyone works with the latest version of the codebase. 
+However, if the central server becomes unavailable, access to the repository is lost, potentially hindering development progress.​
+
+Examples of CVCS:
+
+A): Concurrent Versions System (CVS): Developed in 1986, CVS was one of the earliest version control systems, allowing multiple developers to collaborate on code. ​
+Wikipedia
+
+B): Apache Subversion (SVN): Created in 2000, SVN was designed to overcome some limitations of CVS, offering improved features for version tracking and branching.
+
+2. Distributed Version Control Systems (DVCS):
+
+DVCS differ from CVCS by allowing each developer to maintain a local copy of the entire repository, including its history. 
+This setup facilitates robust branching and merging capabilities, supports offline work, and enhances collaboration among team members. 
+Since every developer has a full repository, there's no single point of failure, and the system is more resilient to server outages.​
+
+Example of DVCS:
+
+A): Git: Developed by Linus Torvalds in 2005, Git has become the most widely used DVCS, known for its speed, scalability, and powerful branching and merging features
+
+B): Mercurial: Introduced in 2005, Mercurial is recognized for its high performance and scalability, supporting distributed collaborative development and advanced branching and merging
+
 
 
